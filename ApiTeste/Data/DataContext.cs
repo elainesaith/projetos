@@ -15,7 +15,7 @@ namespace ApiTeste.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost\sqlexpress;Database=Teste_db; User Id=sa; Password=masterkey");
+            optionsBuilder.UseSqlServer(@"Server=localhost\sqlexpress;Database=Teste_db; User Id=sa; Password=Neski5500*");
         }
     }
 }

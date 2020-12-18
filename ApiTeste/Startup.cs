@@ -27,7 +27,7 @@ namespace ApiTeste
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(@"Server=localhost\sqlexpress;Database=Teste_db; User Id=sa; Password=masterkey"));
+            services.AddDbContext<DataContext>();//options => options.UseSqlServer(@"Server=localhost\sqlexpress;Database=Teste_db; User Id=sa; Password=Neski5500*"));
             services.AddScoped<DataContext, DataContext>();
             services.AddControllers();
         }
